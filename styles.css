@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    margin: 0;
+}
+
+.header,
+.container-one {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 70px 16px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.content {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-one {
+    justify-content: space-between;
+    font-weight: 900px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px 16px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 130px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    background-color: #E5E7EB;
+    padding: 0px 90px 16px;
+}
+
+.container-four {
+    display: flex;
+    margin: 30px 70px 16px;
+    background-color: #3882F6;
+    color: white;
+    padding: 0px 30px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+}
+
+.subtext-two {
+    font-size: 18px;
+    color: #caced6
+}
+
+.subtext {
+    font-size: 18px;
+    color: #85878a
+}
+
+.bold {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
