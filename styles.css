@@ -88,6 +88,7 @@ h2 {
 
 .container-four {
     display: flex;
+    flex-wrap: row;
     margin: 30px 70px 16px;
     background-color: #3882F6;
     color: white;
